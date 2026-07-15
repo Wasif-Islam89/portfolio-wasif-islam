@@ -8,10 +8,10 @@ Welcome to my personal portfolio website.
 🚀 About Me
 I'm a Web Developer passionate about building modern, responsive, and user-friendly websites. I specialize in Frontend Development, WordPress, Shopify, and Graphic Design.
 
-💻 Technologies Used 
-HTML5 
-CSS 
-JavaScript
+💻 Technologies Used
+HTML
+CSS
+JAVASCRIPT
 
 🌐 Live Website                                                                                                                                                                                
 https://portfoliowasifislam.netlify.app/
