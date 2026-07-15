@@ -10,8 +10,8 @@ I'm a Web Developer passionate about building modern, responsive, and user-frien
 💻 Technologies Used
 HTML5
 CSS3
-JavaScript
-🌐 Live Website
+JavaScript                                                                                                                                                                                                           
+🌐 Live Website                                                                                                                                                                                
 (Add your Netlify link here)
 
 📧 Contact
