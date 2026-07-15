@@ -19,7 +19,8 @@ JAVASCRIPT
 🌐 Live Website                                                                                                                                                                                
 https://portfoliowasifislam.netlify.app/
 
-📧 Contact 
+📧 Contact
+
 Email: wasifdev4@gmail.com
 
 LinkedIn: www.linkedin.com/in/wasif-islam
