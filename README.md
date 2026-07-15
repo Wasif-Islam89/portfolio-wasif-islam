@@ -17,5 +17,5 @@ JavaScript
 https://portfoliowasifislam.netlify.app/
 
 📧 Contact 
- Email: wasifdev4@gmail.com 
- LinkedIn: www.linkedin.com/in/wasif-islam
+Email: wasifdev4@gmail.com 
+LinkedIn: www.linkedin.com/in/wasif-islam
