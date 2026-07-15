@@ -9,6 +9,7 @@ Welcome to my personal portfolio website.
 I'm a Web Developer passionate about building modern, responsive, and user-friendly websites. I specialize in Frontend Development, WordPress, Shopify, and Graphic Design.
 
 💻 Technologies Used
+
 HTML
 CSS
 JAVASCRIPT
