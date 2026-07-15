@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Wasif Dev – Frontend, WordPress & Shopify Developer. Building modern, responsive and high-converting websites that help businesses grow online." />
+  <meta name="keywords"
+    content="Frontend Developer, WordPress Developer, Shopify Developer, Web Developer Pakistan, Wasif Dev" />
+  <meta name="author" content="Wasif Dev" />
+  <meta property="og:title" content="Wasif Dev | Frontend · WordPress · Shopify Developer" />
+  <meta property="og:description"
+    content="I build modern, responsive and high-converting websites that help businesses grow online." />
+  <meta property="og:type" content="website" />
+  <title>Wasif Dev | Frontend · WordPress · Shopify Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════ CANVAS BACKGROUND ═══════════════════════ -->
+  <canvas id="space-canvas"></canvas>
+  <div class="noise-overlay"></div>
+
+  <!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Wasif<span class="logo-accent">Dev</span><span
+          class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#" class="btn-cv" id="cv-btn" download>
+        <span class="btn-cv-icon">↓</span> Download CV
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════ HOME ═══════════════════════ -->
+  <section class="section hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        Available for freelance work
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line reveal-up delay-2"> <span class="gradient-text">Wasif Islam</span></span>
+
+      </h1>
+      <h1 class="hero-title">
+        <span id="typing-text"></span><span class="cursor"></span>
+
+      </h1>
+      <p class="hero-sub reveal-up delay-3">
+        I build modern, responsive and high-converting websites<br class="desktop-break" />
+        that help businesses grow online.
+      </p>
+      <div class="hero-actions reveal-up delay-4">
+        <a href="#contact" class="btn btn-primary">
+          <span>Hire Me</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="#" class="btn btn-ghost" download>
+          <span>Download CV</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+          </svg>
+        </a>
+      </div>
+      <div class="hero-stats reveal-up delay-5">
+        <div class="stat-item">
+          <span class="stat-number" data-target="20">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Projects Completed</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Responsive Websites</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+          <span class="stat-label">Fast Delivery</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <p class="section-sub">Crafting digital experiences that make a real difference</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="avatar-frame">
+            <div class="avatar-glow"></div>
+            <div class="avatar-inner">
+              <img src="./img/myself.jpg" alt="Wasif Dev">
+              <span class="avatar-label">Wasif Dev</span>
+            </div>
+            <div class="avatar-badge">
+              <span>&#x2605;</span> Available
+            </div>
+          </div>
+          <div class="about-chips">
+            <span class="chip">Frontend</span>
+            <span class="chip">WordPress</span>
+            <span class="chip">Shopify</span>
+            <span class="chip">UI/UX</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <h3 class="about-heading">Hi, I'm <span class="gradient-text">Wasif</span> — a passionate web developer</h3>
+          <p class="about-text">
+            I specialize in building clean, fast, and conversion-focused websites that don't just look great — they
+            <em>perform</em>. With expertise spanning three major pillars of modern web development, I bring a
+            full-stack perspective to every project I take on.
+          </p>
+          <p class="about-text">
+            Whether you need a lightning-fast landing page built with pure HTML/CSS/JS, a powerful WordPress site
+            powered by Elementor and WooCommerce, or a polished Shopify store that drives sales — I deliver results on
+            time, every time.
+          </p>
+          <div class="about-expertise">
+            <div class="expertise-item">
+              <div class="expertise-icon fe">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </div>
+              <div>
+                <strong>Frontend Development</strong>
+                <span>HTML5 · CSS3 · JavaScript · Responsive Design</span>
+              </div>
+            </div>
+            <div class="expertise-item">
+              <div class="expertise-icon wp">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path
+                    d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                </svg>
+              </div>
+              <div>
+                <strong>WordPress Development</strong>
+                <span>Custom Themes · Elementor · WooCommerce</span>
+              </div>
+            </div>
+            <div class="expertise-item">
+              <div class="expertise-icon sh">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+                  <line x1="3" y1="6" x2="21" y2="6" />
+                  <path d="M16 10a4 4 0 01-8 0" />
+                </svg>
+              </div>
+              <div>
+                <strong>Shopify Development</strong>
+                <span>Store Setup · Theme Customization · Optimization</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline-wrap">
+        <h3 class="timeline-heading">My <span class="gradient-text">Journey</span></h3>
+        <div class="timeline">
+          <div class="timeline-item left">
+            <div class="tl-dot"></div>
+            <div class="tl-card glass">
+              <span class="tl-year">2021</span>
+              <h4>Started Web Development</h4>
+              <p>Began learning HTML, CSS and JavaScript. Built first static websites and fell in love with the craft.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="tl-dot"></div>
+            <div class="tl-card glass">
+              <span class="tl-year">2022</span>
+              <h4>WordPress Mastery</h4>
+              <p>Dived deep into WordPress, Elementor, and WooCommerce. Delivered first client projects successfully.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left">
+            <div class="tl-dot"></div>
+            <div class="tl-card glass">
+              <span class="tl-year">2023</span>
+              <h4>Shopify Expertise</h4>
+              <p>Expanded into Shopify development — store setups, theme customizations, and e-commerce optimization.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="tl-dot"></div>
+            <div class="tl-card glass">
+              <span class="tl-year">2024–Now</span>
+              <h4>Full-Service Developer</h4>
+              <p>Serving clients globally on Fiverr & Upwork. 20+ projects delivered. Focused on premium,
+                conversion-focused builds.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SERVICES ═══════════════════════ -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Offer</span>
+        <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+        <p class="section-sub">Premium development services tailored to your business goals</p>
+      </div>
+      <div class="services-grid">
+
+        <!-- Frontend -->
+        <div class="service-card glass" data-service="frontend">
+          <div class="service-glow"></div>
+          <div class="service-icon-wrap fe">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+          </div>
+          <h3 class="service-title">Frontend Development</h3>
+          <p class="service-desc">Pixel-perfect, blazing-fast websites built with modern web technologies for an
+            exceptional user experience.</p>
+          <ul class="service-list">
+            <li><span class="list-dot"></span>HTML5 &amp; CSS3</li>
+            <li><span class="list-dot"></span>JavaScript (ES6+)</li>
+            <li><span class="list-dot"></span>Responsive Design</li>
+            <li><span class="list-dot"></span>Landing Pages</li>
+            <li><span class="list-dot"></span>Performance Optimization</li>
+          </ul>
+          <a href="#contact" class="service-cta">Get a Quote <span>→</span></a>
+        </div>
+
+        <!-- WordPress -->
+        <div class="service-card glass featured" data-service="wordpress">
+          <div class="service-glow"></div>
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-icon-wrap wp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+            </svg>
+          </div>
+          <h3 class="service-title">WordPress Development</h3>
+          <p class="service-desc">Custom WordPress websites with powerful functionality, beautiful design, and seamless
+            user management.</p>
+          <ul class="service-list">
+            <li><span class="list-dot"></span>Custom WordPress Websites</li>
+            <li><span class="list-dot"></span>Elementor Development</li>
+            <li><span class="list-dot"></span>WooCommerce Stores</li>
+            <li><span class="list-dot"></span>Theme Customization</li>
+            <li><span class="list-dot"></span>Plugin Configuration</li>
+          </ul>
+          <a href="#contact" class="service-cta">Get a Quote <span>→</span></a>
+        </div>
+
+        <!-- Shopify -->
+        <div class="service-card glass" data-service="shopify">
+          <div class="service-glow"></div>
+          <div class="service-icon-wrap sh">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 01-8 0" />
+            </svg>
+          </div>
+          <h3 class="service-title">Shopify Development</h3>
+          <p class="service-desc">Professional Shopify stores optimized for conversions — from setup to a fully
+            polished, sales-ready experience.</p>
+          <ul class="service-list">
+            <li><span class="list-dot"></span>Shopify Store Setup</li>
+            <li><span class="list-dot"></span>Theme Customization</li>
+            <li><span class="list-dot"></span>Product Management</li>
+            <li><span class="list-dot"></span>Store Optimization</li>
+            <li><span class="list-dot"></span>Payment Integration</li>
+          </ul>
+          <a href="#contact" class="service-cta">Get a Quote <span>→</span></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ PORTFOLIO ═══════════════════════ -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Recent <span class="gradient-text">Projects</span></h2>
+        <p class="section-sub">A selection of projects that showcase my capabilities</p>
+      </div>
+
+      <div class="portfolio-tabs">
+        <button class="tab-btn active" data-filter="frontend">Frontend Projects</button>
+        <button class="tab-btn" data-filter="wordpress">WordPress Projects</button>
+        <button class="tab-btn" data-filter="shopify">Shopify Projects</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+
+        <!-- Frontend Projects -->
+        <div class="port-card glass" data-category="frontend">
+          <div class="port-img fe-img">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link" target="_blank">GitHub</a>
+                <a href="#" class="port-link primary" target="_blank">Live Demo</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g1)" />
+                <rect x="10" y="15" width="180" height="10" rx="3" fill="rgba(255,255,255,0.15)" />
+                <rect x="10" y="33" width="120" height="8" rx="3" fill="rgba(255,255,255,0.1)" />
+                <rect x="10" y="48" width="90" height="8" rx="3" fill="rgba(255,255,255,0.08)" />
+                <rect x="10" y="68" width="180" height="40" rx="6" fill="rgba(255,255,255,0.06)" />
+                <defs>
+                  <linearGradient id="g1" x1="0" y1="0" x2="200" y2="120">
+                    <stop stop-color="#4f46e5" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">HTML · CSS · JS</span>
+            <h3 class="port-title">Agency Landing Page</h3>
+            <p class="port-desc">A high-converting marketing agency landing page with smooth scroll animations, contact
+              form, and mobile-first design.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm ghost" target="_blank">GitHub</a>
+              <a href="#" class="btn-sm primary" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card glass" data-category="frontend">
+          <div class="port-img fe-img2">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link" target="_blank">GitHub</a>
+                <a href="#" class="port-link primary" target="_blank">Live Demo</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g2)" />
+                <circle cx="40" cy="60" r="30" fill="rgba(255,255,255,0.08)" />
+                <rect x="80" y="20" width="110" height="12" rx="4" fill="rgba(255,255,255,0.15)" />
+                <rect x="80" y="42" width="80" height="8" rx="3" fill="rgba(255,255,255,0.1)" />
+                <rect x="80" y="58" width="100" height="8" rx="3" fill="rgba(255,255,255,0.08)" />
+                <rect x="80" y="80" width="60" height="22" rx="6" fill="rgba(79,70,229,0.5)" />
+                <defs>
+                  <linearGradient id="g2" x1="0" y1="0" x2="200" y2="120">
+                    <stop stop-color="#06b6d4" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">HTML · CSS · JS</span>
+            <h3 class="port-title">SaaS Product Page</h3>
+            <p class="port-desc">Modern SaaS landing page with hero section, features grid, pricing table, and animated
+              call-to-action components.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm ghost" target="_blank">GitHub</a>
+              <a href="#" class="btn-sm primary" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card glass" data-category="frontend">
+          <div class="port-img fe-img3">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link" target="_blank">GitHub</a>
+                <a href="#" class="port-link primary" target="_blank">Live Demo</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g3)" />
+                <rect x="10" y="10" width="55" height="100" rx="6" fill="rgba(255,255,255,0.06)" />
+                <rect x="75" y="10" width="55" height="60" rx="6" fill="rgba(255,255,255,0.08)" />
+                <rect x="140" y="10" width="50" height="80" rx="6" fill="rgba(255,255,255,0.05)" />
+                <rect x="75" y="80" width="55" height="30" rx="6" fill="rgba(168,85,247,0.3)" />
+                <defs>
+                  <linearGradient id="g3" x1="0" y1="0" x2="200" y2="120">
+                    <stop stop-color="#a855f7" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">HTML · CSS · JS</span>
+            <h3 class="port-title">Portfolio Template</h3>
+            <p class="port-desc">Clean and minimal developer portfolio template with masonry grid, project filtering,
+              and dark/light mode toggle.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm ghost" target="_blank">GitHub</a>
+              <a href="#" class="btn-sm primary" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- WordPress Projects -->
+        <div class="port-card glass" data-category="wordpress" style="display:none">
+          <div class="port-img wp-img">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link primary" target="_blank">Visit Website</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g4)" />
+                <rect x="10" y="10" width="180" height="25" rx="4" fill="rgba(255,255,255,0.1)" />
+                <rect x="10" y="45" width="85" height="65" rx="4" fill="rgba(255,255,255,0.06)" />
+                <rect x="105" y="45" width="85" height="30" rx="4" fill="rgba(255,255,255,0.08)" />
+                <rect x="105" y="83" width="85" height="27" rx="4" fill="rgba(6,182,212,0.25)" />
+                <defs>
+                  <linearGradient id="g4" x1="0" y1="0" x2="200" y2="120">
+                    <stop stop-color="#1e3a5f" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">WordPress · Elementor</span>
+            <h3 class="port-title">Real Estate Website</h3>
+            <p class="port-desc">Feature-rich real estate platform with property listings, advanced search filters, and
+              custom Elementor widgets.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm primary" target="_blank">Visit Website</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card glass" data-category="wordpress" style="display:none">
+          <div class="port-img wp-img2">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link primary" target="_blank">Visit Website</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g5)" />
+                <circle cx="100" cy="50" r="30" fill="rgba(255,255,255,0.05)" />
+                <circle cx="100" cy="50" r="20" fill="rgba(255,255,255,0.08)" />
+                <rect x="20" y="88" width="50" height="20" rx="4" fill="rgba(255,255,255,0.06)" />
+                <rect x="80" y="88" width="50" height="20" rx="4" fill="rgba(255,255,255,0.06)" />
+                <rect x="140" y="88" width="40" height="20" rx="4" fill="rgba(255,255,255,0.06)" />
+                <defs>
+                  <linearGradient id="g5" x1="0" y1="0" x2="200" y2="120">
+                    <stop stop-color="#1a5276" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">WordPress · WooCommerce</span>
+            <h3 class="port-title">Online Electronics Store</h3>
+            <p class="port-desc">Full WooCommerce store with product variations, smart cart, checkout optimization, and
+              inventory management.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm primary" target="_blank">Visit Website</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card glass" data-category="wordpress" style="display:none">
+          <div class="port-img wp-img3">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link primary" target="_blank">Visit Website</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g6)" />
+                <rect x="10" y="10" width="180" height="40" rx="8" fill="rgba(255,255,255,0.07)" />
+                <rect x="20" y="20" width="80" height="20" rx="4" fill="rgba(255,255,255,0.12)" />
+                <rect x="10" y="60" width="55" height="50" rx="6" fill="rgba(255,255,255,0.05)" />
+                <rect x="73" y="60" width="55" height="50" rx="6" fill="rgba(255,255,255,0.07)" />
+                <rect x="136" y="60" width="54" height="50" rx="6" fill="rgba(255,255,255,0.05)" />
+                <defs>
+                  <linearGradient id="g6" x1="0" y1="120" x2="200" y2="0">
+                    <stop stop-color="#0d3b2e" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">WordPress · Custom Theme</span>
+            <h3 class="port-title">Restaurant &amp; Food Blog</h3>
+            <p class="port-desc">Elegant restaurant website with reservation system, menu showcase, and a recipe blog
+              built on a custom WordPress theme.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm primary" target="_blank">Visit Website</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shopify Projects -->
+        <div class="port-card glass" data-category="shopify" style="display:none">
+          <div class="port-img sh-img">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link primary" target="_blank">Visit Store</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g7)" />
+                <rect x="10" y="10" width="85" height="100" rx="6" fill="rgba(255,255,255,0.06)" />
+                <rect x="20" y="20" width="65" height="50" rx="4" fill="rgba(255,255,255,0.08)" />
+                <rect x="20" y="78" width="40" height="8" rx="2" fill="rgba(255,255,255,0.12)" />
+                <rect x="20" y="92" width="30" height="8" rx="2" fill="rgba(255,179,0,0.4)" />
+                <rect x="105" y="10" width="85" height="100" rx="6" fill="rgba(255,255,255,0.04)" />
+                <rect x="115" y="20" width="65" height="50" rx="4" fill="rgba(255,255,255,0.06)" />
+                <rect x="115" y="78" width="40" height="8" rx="2" fill="rgba(255,255,255,0.1)" />
+                <rect x="115" y="92" width="30" height="8" rx="2" fill="rgba(255,179,0,0.3)" />
+                <defs>
+                  <linearGradient id="g7" x1="0" y1="0" x2="200" y2="120">
+                    <stop stop-color="#3b1a00" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">Shopify · Theme Custom</span>
+            <h3 class="port-title">Fashion Boutique Store</h3>
+            <p class="port-desc">Stylish Shopify fashion store with lookbook galleries, size guides, Instagram feed
+              integration, and optimized checkout.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm primary" target="_blank">Visit Store</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card glass" data-category="shopify" style="display:none">
+          <div class="port-img sh-img2">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link primary" target="_blank">Visit Store</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g8)" />
+                <rect x="10" y="10" width="180" height="50" rx="6" fill="rgba(255,255,255,0.06)" />
+                <rect x="20" y="20" width="60" height="30" rx="4" fill="rgba(255,255,255,0.1)" />
+                <rect x="90" y="22" width="90" height="10" rx="3" fill="rgba(255,255,255,0.12)" />
+                <rect x="90" y="38" width="70" height="8" rx="3" fill="rgba(255,255,255,0.08)" />
+                <rect x="10" y="70" width="55" height="40" rx="4" fill="rgba(255,255,255,0.06)" />
+                <rect x="73" y="70" width="55" height="40" rx="4" fill="rgba(255,255,255,0.08)" />
+                <rect x="136" y="70" width="54" height="40" rx="4" fill="rgba(255,255,255,0.06)" />
+                <defs>
+                  <linearGradient id="g8" x1="0" y1="0" x2="200" y2="120">
+                    <stop stop-color="#1a2b1a" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">Shopify · Store Setup</span>
+            <h3 class="port-title">Organic Skincare Brand</h3>
+            <p class="port-desc">Premium Shopify store for a skincare brand featuring subscription products, bundle
+              builder, and loyalty rewards program.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm primary" target="_blank">Visit Store</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card glass" data-category="shopify" style="display:none">
+          <div class="port-img sh-img3">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link primary" target="_blank">Visit Store</a>
+              </div>
+            </div>
+            <div class="port-img-inner">
+              <svg viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="120" fill="url(#g9)" />
+                <rect x="10" y="10" width="120" height="100" rx="6" fill="rgba(255,255,255,0.05)" />
+                <rect x="20" y="20" width="100" height="60" rx="4" fill="rgba(255,255,255,0.08)" />
+                <rect x="20" y="86" width="60" height="14" rx="4" fill="rgba(79,70,229,0.4)" />
+                <rect x="140" y="10" width="50" height="100" rx="6" fill="rgba(255,255,255,0.04)" />
+                <rect x="148" y="20" width="34" height="10" rx="3" fill="rgba(255,255,255,0.1)" />
+                <rect x="148" y="38" width="34" height="60" rx="3" fill="rgba(255,255,255,0.06)" />
+                <defs>
+                  <linearGradient id="g9" x1="200" y1="0" x2="0" y2="120">
+                    <stop stop-color="#1a0a2e" />
+                    <stop offset="1" stop-color="#0a0a1f" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="port-info">
+            <span class="port-tag">Shopify · Optimization</span>
+            <h3 class="port-title">Tech Gadgets Store</h3>
+            <p class="port-desc">High-performance Shopify electronics store with comparison tools, spec sheets, and
+              conversion-optimized product pages.</p>
+            <div class="port-actions">
+              <a href="#" class="btn-sm primary" target="_blank">Visit Store</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ SKILLS ═══════════════════════ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tech Stack</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <p class="section-sub">Tools and technologies I use to bring ideas to life</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-col">
+          <div class="skill-item" data-percent="95">
+            <div class="skill-meta">
+              <span class="skill-name">HTML5</span>
+              <span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar fe-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="90">
+            <div class="skill-meta">
+              <span class="skill-name">CSS3</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar fe-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="80">
+            <div class="skill-meta">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar fe-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="88">
+            <div class="skill-meta">
+              <span class="skill-name">WordPress</span>
+              <span class="skill-pct">88%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar wp-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="85">
+            <div class="skill-meta">
+              <span class="skill-name">Elementor</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar wp-bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-col">
+          <div class="skill-item" data-percent="82">
+            <div class="skill-meta">
+              <span class="skill-name">WooCommerce</span>
+              <span class="skill-pct">82%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar wp-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="85">
+            <div class="skill-meta">
+              <span class="skill-name">Shopify</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar sh-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="78">
+            <div class="skill-meta">
+              <span class="skill-name">Git</span>
+              <span class="skill-pct">78%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar git-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="75">
+            <div class="skill-meta">
+              <span class="skill-name">GitHub</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar git-bar"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percent="70">
+            <div class="skill-meta">
+              <span class="skill-name">Responsive Design</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar fe-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-sub">Have a project in mind? Let's build something amazing together.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-intro glass">
+            <h3>Ready to Start Your Project?</h3>
+            <p>I'm available for freelance work and collaborations. Whether it's a quick landing page or a full
+              e-commerce store, I'd love to hear about your project.</p>
+            <div class="contact-channels">
+              <a href="https://wa.me/923001234567" class="channel-btn whatsapp" target="_blank">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                WhatsApp
+              </a>
+              <a href="https://github.com" class="channel-btn github" target="_blank">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                GitHub
+              </a>
+              <a href="https://linkedin.com" class="channel-btn linkedin" target="_blank">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap glass">
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+            <div class="form-feedback" id="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo footer-logo">
+            <span class="logo-bracket">&lt;</span>Wasif<span class="logo-accent">Dev</span><span
+              class="logo-bracket">/&gt;</span>
+          </a>
+          <p>Building modern, responsive and high-converting websites that help businesses grow online.</p>
+          <div class="footer-socials">
+            <a href="https://github.com" target="_blank" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/wasif-islam" target="_blank" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="https://wa.me/923049210972" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Frontend Development</a></li>
+            <li><a href="#services">WordPress Development</a></li>
+            <li><a href="#services">Shopify Development</a></li>
+            <li><a href="#services">Landing Pages</a></li>
+            <li><a href="#services">WooCommerce Stores</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 <span class="gradient-text">Wasif Dev</span>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
