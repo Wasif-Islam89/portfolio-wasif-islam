@@ -15,4 +15,5 @@ JavaScript
 (Add your Netlify link here)
 
 📧 Contact
-Email: wasifdev4@gmail.com LinkedIn: www.linkedin.com/in/wasif-islam
+Email: wasifdev4@gmail.com 
+LinkedIn: www.linkedin.com/in/wasif-islam
