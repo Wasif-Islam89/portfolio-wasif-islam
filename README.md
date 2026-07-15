@@ -11,9 +11,7 @@ I'm a Web Developer passionate about building modern, responsive, and user-frien
 💻 Technologies Used
 
 HTML
-
 CSS
-
 JAVASCRIPT
 
 🌐 Live Website                                                                                                                                                                                
