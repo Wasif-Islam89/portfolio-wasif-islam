@@ -20,5 +20,6 @@ JAVASCRIPT
 https://portfoliowasifislam.netlify.app/
 
 📧 Contact 
-Email: wasifdev4@gmail.com 
+Email: wasifdev4@gmail.com
+
 LinkedIn: www.linkedin.com/in/wasif-islam
