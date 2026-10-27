@@ -345,44 +345,44 @@
 
 
 
-const texts = [
-  "Frontend Developer",
-  "WordPress Developer",
-  "Shopify Developer"
-];
+/* ─────────────────────────────────────────
+   HERO TYPING EFFECT (Frontend Developer)
+───────────────────────────────────────── */
+(function initTypingEffect() {
+  const textToType = "Frontend Developer";
+  const typingElement = document.getElementById("typing-text");
+  if (!typingElement) return;
 
-let textIndex = 0;
-let charIndex = 0;
-let isDeleting = false;
+  typingElement.textContent = textToType;
+  let charIndex = textToType.length;
+  let isDeleting = true;
 
-const typingElement = document.getElementById("typing-text");
+  function typeStep() {
+    if (isDeleting) {
+      charIndex--;
+      typingElement.textContent = textToType.substring(0, charIndex);
 
-function typeEffect() {
-  const currentText = texts[textIndex];
+      if (charIndex === 0) {
+        isDeleting = false;
+        setTimeout(typeStep, 600);
+        return;
+      }
+      setTimeout(typeStep, 50);
+    } else {
+      charIndex++;
+      typingElement.textContent = textToType.substring(0, charIndex);
 
-  if (!isDeleting) {
-    typingElement.textContent = currentText.substring(0, charIndex + 1);
-    charIndex++;
-
-    if (charIndex === currentText.length) {
-      isDeleting = true;
-      setTimeout(typeEffect, 1500);
-      return;
-    }
-  } else {
-    typingElement.textContent = currentText.substring(0, charIndex - 1);
-    charIndex--;
-
-    if (charIndex === 0) {
-      isDeleting = false;
-      textIndex = (textIndex + 1) % texts.length;
+      if (charIndex === textToType.length) {
+        isDeleting = true;
+        setTimeout(typeStep, 2500);
+        return;
+      }
+      setTimeout(typeStep, 95);
     }
   }
 
-  setTimeout(typeEffect, isDeleting ? 50 : 100);
-}
-
-typeEffect();
+  setTimeout(typeStep, 2200);
+})();
 
 
 /* ─────────────────────────────────────────
@@ -436,7 +436,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
   function showCategory(category) {
     cards.forEach(card => {
-      const isMatch = card.dataset.category === category;
+      const isMatch = category === 'all' || card.dataset.category === category;
       card.style.display = isMatch ? '' : 'none';
       if (isMatch) {
         card.style.animation = 'fadeUp 0.5s ease forwards';
@@ -448,11 +448,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     tab.addEventListener('click', () => {
       tabs.forEach(btn => btn.classList.remove('active'));
       tab.classList.add('active');
-      showCategory(tab.dataset.filter || 'frontend');
+      showCategory(tab.dataset.filter || 'all');
     });
   });
 
-  showCategory('frontend');
+  showCategory('all');
 })();
 
 
@@ -535,7 +535,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   const targets = [
     '.service-card',
     '.port-card',
-    '.tl-card',
     '.about-grid',
     '.skills-grid',
     '.contact-grid',
@@ -573,7 +572,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   const feedback = document.getElementById('form-feedback');
   if (!form || !feedback) return;
 
-  form.addEventListener('submit', function(e) {
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
 
     const button = form.querySelector('button[type="submit"]');
